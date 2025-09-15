@@ -1,4 +1,4 @@
-// Detect HyperVisor based on cpuinfo instruction and 31th bit of ecx
+// Detect HyperVisor based on cpuid instruction and 31th bit of ecx
 
 #ifdef WIN32
     #include <intrin.h>
